@@ -3,9 +3,10 @@ proctype A(){
 }
 
 active proctype B(){
-
+    skip
 }
 
-init{
+init
+{
     run A();
 }
