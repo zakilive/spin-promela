@@ -1,0 +1,14 @@
+init {
+    chan q = [8] of {byte};
+    byte one_more=0;
+
+    do
+    :: q!one_more; one_more++
+    :: len(q) == one_more
+//    ::  full(q) -> break
+    od;
+
+    assert(len(q)==8)
+
+
+}
