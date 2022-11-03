@@ -1,4 +1,5 @@
 //two process that write same variable
+//it has bugs, can be solved with atomic section
 int shared = 0;
 
 active proctype A(){
