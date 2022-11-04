@@ -1,0 +1,11 @@
+// -> and semicolon is same thing
+
+active proctype example(){
+    int x=0
+    if
+    :: x=1
+    :: x=2
+    :: x=3
+    fi
+    printf("x=%d\n", x)
+}
