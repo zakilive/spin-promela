@@ -1,0 +1,8 @@
+active proctype arbitrary(){
+    int i = 3;
+    do
+    :: i<11 -> i++
+    ::break 
+    od
+    printf("got %d \n",i)
+}
