@@ -2,7 +2,7 @@ int shared = 0
 
 active proctype A(){
     atomic{
-        shared = 1;
+        shared == 2;
         printf("A: %d\n", shared);
     }
 }
