@@ -6,3 +6,4 @@ Some settings for SPIN installation inside linux machine:<br />
 step 1:git clone https://github.com/nimble-code/Spin.git<br />
 step 2:make command in cloned folder to execute makefile: sudo make<br />
 step 3:sudo cp /home/labor/Spin/Src/spin /usr/bin<br />
+step 4:Check if spin installed correctly: spin -V<br />
