@@ -7,3 +7,11 @@ step 1:git clone https://github.com/nimble-code/Spin.git<br />
 step 2:make command in cloned folder to execute makefile: sudo make<br />
 step 3:sudo cp /home/labor/Spin/Src/spin /usr/bin<br />
 step 4:Check if spin installed correctly: spin -V<br />
+
+For running GUI:
+step 5: Go to cd /home/labor/Spin/optional_gui
+step 6: Do ls
+step 7: Execute the file by doing: ./ispin.tcl
+Then a graphical screen will open: for that the dependency is<br />
+sudo apt install tcl tk<br />
+sudo apt install graphviz<br />
